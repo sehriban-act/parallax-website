@@ -38,6 +38,7 @@ h2{
     border-bottom-right-radius: 2rem;
     outline:0.5rem inset purple;
     outline-offset: 1rem;
+    line-height:5rem;
 }
 .heading-container{
   position: absolute;
@@ -104,25 +105,39 @@ section{
     /* position:absolute; */
 }
 
-/* .p_text{
-    position: absolute;
-    top:50%;
-    width:100%;
-    text-align: center;
-    color: #000;
-    font-size: 1.5em;
-    letter-spacing: 8px ;
-    text-transform: uppercase;
 
-} */
 
-/* .ptext .border{
-    background-color: #111;
-    color:#fff;
-    padding: 20px;
-} */
-@media(max-width:568px){
+
+@media(max-width:760px){
     .pmg,.pmg1,.pmg3,.pmg4{
         background-attachment: scroll;
     }
+    .heading-container{
+          font-size: 1.5rem;
+          letter-spacing: 0.5rem;
+    }
+    .heading-container__heading-big{
+        background-color: black;
+        padding:0.6rem;
+        outline:0.2rem inset purple;
+        outline-offset: 0.3rem;
+        border-radius:1rem 0 1rem 0;
+        line-height:4rem;
+    }
+    .heading-container__small{
+        padding: 0.4rem;
+        border-top-left-radius: 0.4rem;
+        border-bottom-right-radius: 0.4rem;
+        outline:0.2rem inset  purple; 
+        outline-offset: 0.1rem;
+       line-height:3rem;
+       
+        /* position:absolute; */
+    }
+    .section{
+        padding:1.5rem 2rem;}
+     .heading-container__logo{
+            width:50%;
+           
+        }
 }
