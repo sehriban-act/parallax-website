@@ -19,7 +19,7 @@ h2{
 
 }
 /* to perfect placement */
-.pimg,.pimg1,.pimg2,.pimg3,.pimg4{
+.pImg,.pImg1,.pImg2,.pImg3,.pImg4{
     position:relative;
     opacity: 0.70;
     background-position: center;
@@ -55,26 +55,26 @@ h2{
     opacity:1;
 }
 
-.pimg{
+.pImg{
     background-image: url(./img/bg.jpg);
     min-height: 100%;
 }
 
 
-.pimg1{
+.pImg1{
     background-image: url(./img/bg1.jpg);
     min-height: 80%;
 }
-.pimg2{
+.pImg2{
     background-image: url(./img/bg2.jpg);
     min-height: 80%;
 }
-.pimg3{
+.pImg3{
     background-image: url(./img/bg3.jpg);
     min-height: 80%;
 }
 
-.pimg4{
+.pImg4{
     background-image: url(./img/bg4.jpg);
     min-height: 80%;
 }
@@ -82,12 +82,11 @@ h2{
 section{
     text-align: center;
     padding:3rem 5rem;
-    ba
-
 }
+
 .section-light{
-    background-color:#rgb(241,241,241);
-    color:#666;
+    background-color:whitesmoke;
+    color:666;
 }
 .section-dark{
     background-color: #282e34;
@@ -109,7 +108,7 @@ section{
 
 
 @media(max-width:760px){
-    .pmg,.pmg1,.pmg3,.pmg4{
+    .pImg,.pImg1,.pImg3,.pImg4{
         background-attachment: scroll;
     }
     .heading-container{
